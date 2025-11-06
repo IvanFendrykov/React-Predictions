@@ -1,0 +1,60 @@
+:root {
+  --bg: #0b0f1a;
+  --bg-gradient: radial-gradient(
+      1200px 600px at 20% -10%,
+      #1a2442 0%,
+      transparent 60%
+    ),
+    radial-gradient(1000px 800px at 110% 10%, #2a1b47 0%, transparent 60%),
+    linear-gradient(180deg, #0b0f1a 0%, #080a12 100%);
+  --card: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --text: #e9edf8;
+  --muted: #a9b0c2;
+  --primary: #7c9cff; /* індиго-блакитний */
+  --primary-contrast: #0a1022;
+  --accent: #8ef0d3; /* м’ята */
+  --danger: #ff7a7a;
+
+  --radius: 14px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --blur: 12px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--bg-gradient), var(--bg);
+  font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Inter,
+    "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}

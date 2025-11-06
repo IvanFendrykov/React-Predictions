@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 840px;
+  margin: clamp(24px, 4vw, 56px) auto;
+  padding: clamp(16px, 3vw, 32px);
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(var(--blur));
+}
+.group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 14px 0 10px;
+}
